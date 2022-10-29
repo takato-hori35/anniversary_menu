@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+周年記念のコースメニューです
 
-Things you may want to cover:
+# 立ち上げ方法
+`docker-compose up`
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+万が一DBがない場合はコンテナ内で作成してください
+`docker-compose run --rm web rails db:create`
+でいけるはず
+※ 試してはない
